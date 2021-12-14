@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearJSVariables"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylewhite_2">
+        <LinearLayout android:id="@+id/linearGroup162"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleorange_A200">
+            <TextView android:gravity="top|start"
+                android:id="@+id/txtPrice"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:layout_marginStart="@dimen/_23pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="wrap_content"
+                android:text="@string/msg_javascript_cour"
+                style="@style/txtInterbold14_3" tools:text="@string/msg_javascript_cour"/>
+            <TextView android:gravity="top|start"
+                android:id="@+id/txtVariables"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:layout_marginStart="@dimen/_23pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="wrap_content"
+                android:text="@string/lbl_variables"
+                style="@style/txtInterbold30" tools:text="@string/lbl_variables"/>
+        </LinearLayout>
+        <TextView android:gravity="start"
+            android:id="@+id/txtDescription"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_23pxh"
+            android:layout_marginStart="@dimen/_23pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:text="@string/msg_a_javascript_va"
+            style="@style/txtInterregular14" tools:text="@string/msg_a_javascript_va"/>
+        <LinearLayout android:id="@+id/linearOptions"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_36pxv"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <EditText
+                android:background="@drawable/rectangle_bg_white_a700_radius_10"
+                android:drawableEnd="@drawable/img_forums"
+                android:drawablePadding="@dimen/_5pxh"
+                android:hint="@string/msg_community_forum"
+                android:id="@+id/etTime"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_14pxv"
+                android:paddingEnd="@dimen/_23pxh"
+                android:paddingStart="@dimen/_13pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true"
+                android:textColorHint="@color/black_900" style="@style/etSolidRounded_1"/>
+            <LinearLayout android:id="@+id/linearGroup163"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylecornerRadius">
+                <LinearLayout android:id="@+id/linearGroup164"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_13pxv"
+                    android:layout_marginTop="@dimen/_13pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:gravity="top|start"
+                        android:id="@+id/txtTime"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_weight="1.1"
+                        android:layout_width="0dp"
+                        android:text="@string/msg_review_concept"
+                        style="@style/txtIntermedium14_2" tools:text="@string/msg_review_concept"/>
+                    <ImageView android:id="@+id/imageBackArrow"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_18pxh"
+                        android:layout_marginEnd="@dimen/_24pxh"
+                        android:layout_marginStart="@dimen/_104pxh"
+                        android:layout_width="@dimen/_9pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_backarrow"/>
+                </LinearLayout>
+            </LinearLayout>
+            <EditText
+                android:background="@drawable/rectangle_bg_white_a700_radius_10"
+                android:drawableEnd="@drawable/img_backarrow"
+                android:drawablePadding="@dimen/_5pxh"
+                android:hint="@string/msg_practice_skills"
+                android:id="@+id/etTime1"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_14pxv"
+                android:paddingEnd="@dimen/_24pxh"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true"
+                android:textColorHint="@color/black_900" style="@style/etSolidRounded_1"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

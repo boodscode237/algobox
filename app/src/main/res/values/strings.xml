@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Algobox</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_continue">Continue</string>
+<string name="lbl_email_address">Email Address</string>
+<string name="lbl4">Темная тема</string>
+<string name="lbl5">Уведомления</string>
+<string name="lbl2">Темная тема</string>
+<string name="lbl3">Уведомления</string>
+<string name="msg_a_javascript_va">A JavaScript variable is simply a name of storage location.</string>
+<string name="msg_lorem_ipsum_dol3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare nec massa ut dictum enim aliquet semper porta eu. Morbi viverra quis amet sollicitudin. A tincidunt consequat ut mattis bibendum. Ornare in eget quis ullamcorper nam mauris at quis vitae. Sodales libero cursus a, pulvinar erat sapien. Lorem tincidunt enim mauris lacus in. Fringilla egestas enim eu, quam euismod. Malesuada sem aliquam, ut diam felis libero aenean egestas. Quis fusce aliquet mattis ut purus at felis. Consectetur tortor bibendum mauris nullam libero porttitor. Cursus aliquet eget habitant commodo, felis et pretium. Hendrerit facilisis nunc, rutrum ac arcu odio velit. Non euismod elementum semper arcu. Pellentesque leo consequat phasellus pellentesque eu mattis platea commodo.
+Quis nulla justo, malesuada eget eleifend viverra. Viverra tristique sollicitudin dui risus. Id neque auctor tempor commodo, pretium penatibus. Ultrices amet faucibus et, consequat. Adipiscing sed vestibulum pellentesque venenatis leo nunc. Commodo risus lectus interdum ultrices sit. A erat mauris et in interdum dictum aliquet. Aliquet mauris vel ac vel a. Bibendum sociis nulla velit, enim, consectetur id amet tristique magnis. Erat mattis mauris rhoncus suspendisse vestibulum consequat quis ipsum ac. Integer bibendum cursus molestie et bibendum tortor sit scelerisque augue.
+Magna sed dolor est augue amet, dolor. Diam tellus nec odio leo turpis pretium. Tempus integer placerat viverra convallis in aenean. In lectus et egestas sollicitudin rhoncus blandit aliquam rhoncus lorem. Orci, bibendum egestas adipiscing urna nunc laoreet id morbi elementum. Faucibus enim, arcu etiam id. In arcu aliquam dolor ac eu, condimentum vulputate.
+Tortor massa netus diam bibendum. Sed aliquam mi scelerisque gravida urna lectus dictum erat. Turpis ridiculus enim blandit maecenas mi, ultricies. Vel orci vivamus sed mattis mauris, diam. Sit ultrices tincidunt ut interdum leo proin nec est arcu. Sit quam ut sit mauris, porta feugiat nascetur vitae ultrices. Ultrices ultricies venenatis velit nec duis fames sed. Viverra morbi viverra nunc tincidunt. Rhoncus pellentesque arcu ultrices ut odio. Dignissim sed risus, dolor urna, ac pharetra interdum volutpat euismod.
+Vel risus, venenatis vulputate sed. Tellus in massa integer convallis. A duis ipsum et venenatis. Nec tellus massa, penatibus ut interdum morbi augue donec amet. Vestibulum pulvinar aliquet varius tellus sit tortor nibh cursus. Etiam elementum tristique praesent arcu metus aliquam ac. Lacinia varius sit ipsum et neque. Ipsum amet, ac feugiat sit posuere tristique.</string>
+<string name="msg_lorem_ipsum_dol2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare nec massa ut dictum enim aliquet semper porta eu. Morbi viverra quis amet sollicitudin. A tincidunt consequat ut mattis bibendum. Ornare in eget quis ullamcorper nam mauris at quis vitae. Sodales libero cursus a, pulvinar erat sapien. Lorem tincidunt enim mauris lacus in. Fringilla egestas enim eu, quam euismod. Malesuada sem aliquam, ut diam felis libero aenean egestas. Quis fusce aliquet mattis ut purus at felis. Consectetur tortor bibendum mauris nullam libero porttitor. Cursus aliquet eget habitant commodo, felis et pretium. Hendrerit facilisis nunc, rutrum ac arcu odio velit. Non euismod elementum semper arcu. Pellentesque leo consequat phasellus pellentesque eu mattis platea commodo.
+Quis nulla justo, malesuada eget eleifend viverra. Viverra tristique sollicitudin dui risus. Id neque auctor tempor commodo, pretium penatibus. Ultrices amet faucibus et, consequat. Adipiscing sed vestibulum pellentesque venenatis leo nunc. Commodo risus lectus interdum ultrices sit. A erat mauris et in interdum dictum aliquet. Aliquet mauris vel ac vel a. Bibendum sociis nulla velit, enim, consectetur id amet tristique magnis. Erat mattis mauris rhoncus suspendisse vestibulum consequat quis ipsum ac. Integer bibendum cursus molestie et bibendum tortor sit scelerisque augue.
+Magna sed dolor est augue amet, dolor. Diam tellus nec odio leo turpis pretium. Tempus integer placerat viverra convallis in aenean. In lectus et egestas sollicitudin rhoncus blandit aliquam rhoncus lorem. Orci, bibendum egestas adipiscing urna nunc laoreet id morbi elementum. Faucibus enim, arcu etiam id. In arcu aliquam dolor ac eu, condimentum vulputate.
+Tortor massa netus diam bibendum. Sed aliquam mi scelerisque gravida urna lectus dictum erat. Turpis ridiculus enim blandit maecenas mi, ultricies. Vel orci vivamus sed mattis mauris, diam. Sit ultrices tincidunt ut interdum leo proin nec est arcu. Sit quam ut sit mauris, porta feugiat nascetur vitae ultrices. Ultrices ultricies venenatis velit nec duis fames sed. Viverra morbi viverra nunc tincidunt. Rhoncus pellentesque arcu ultrices ut odio. Dignissim sed risus, dolor urna, ac pharetra interdum volutpat euismod.
+Vel risus, venenatis vulputate sed. Tellus in massa integer convallis. A duis ipsum et venenatis. Nec tellus massa, penatibus ut interdum morbi augue donec amet. Vestibulum pulvinar aliquet varius tellus sit tortor nibh cursus. Etiam elementum tristique praesent arcu metus aliquam ac. Lacinia varius sit ipsum et neque. Ipsum amet, ac feugiat sit posuere tristique.</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_edit">Edit</string>
+<string name="msg_log_in_invali2">Log In - Invalid-dark</string>
+<string name="lbl_135">135</string>
+<string name="lbl_variables">Variables</string>
+<string name="lbl_username">Username</string>
+<string name="msg_horizontal_scro">Horizontal Scrolling</string>
+<string name="msg20">Прочитанные статьи</string>
+<string name="msg_review_concept">Review Concept  5 min</string>
+<string name="lbl_lesson">Lesson</string>
+<string name="msg15">Решенные упражнения</string>
+<string name="msg14">Прочитанные статьи</string>
+<string name="msg17">Получайте уведомления, когда может появиться новый ресурс, который поможет вам в вашем путешествии по программированию.</string>
+<string name="msg16">Получайте ежедневные напоминания, чтобы постоянно практиковаться и пересматривать концепции.</string>
+<string name="msg11">Получайте уведомления, когда может появиться новый ресурс, который поможет вам в вашем путешествии по программированию.</string>
+<string name="msg10">Получайте ежедневные напоминания, чтобы постоянно практиковаться и пересматривать концепции.</string>
+<string name="msg13">самое высокое
+ время соединения</string>
+<string name="msg12">общее время обучения</string>
+<string name="lbl_home_page_dark">Home Page-dark</string>
+<string name="msg_log_in_invali">Log In - Invalid</string>
+<string name="msg19">самое высокое
+ время соединения</string>
+<string name="msg18">общее время обучения</string>
+<string name="msg_community_forum">Community Forums  5 min</string>
+<string name="lbl_algobox">ALGOBOX</string>
+<string name="lbl_34">3</string>
+<string name="lbl_lessondark">Lessondark</string>
+<string name="lbl_35">35ч</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="lbl_32">3</string>
+<string name="lbl_33">3</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_title">Title</string>
+<string name="lbl_student_name">student_name</string>
+<string name="msg_practice_skills">Practice Skills  5 min</string>
+<string name="lbl_114">114</string>
+<string name="lbl6">Темная тема</string>
+<string name="lbl7">Уведомления</string>
+<string name="lbl_home_page_js22">Home Page-js22</string>
+<string name="lbl_home_page_js">Home Page-js</string>
+<string name="msg">Выполните поиск по, термину или ключевому слову.</string>
+<string name="msg40">Основы алгоритмизации  
+5 мин</string>
+<string name="msg42">Основы алгоритмизации, 
+языки и системы программирования.</string>
+<string name="msg41">Алгоритмы цикла 5 мин</string>
+<string name="msg_log_in_with_goo">Log In with Google</string>
+<string name="msg37">Основы алгоритмизации, 
+языки и системы программирования.</string>
+<string name="msg36">Урок по алгоритмам</string>
+<string name="msg39">Вводная лекция. 5 мин</string>
+<string name="msg38">Содержание учебного материала</string>
+<string name="msg33">ОСНОВЫ АЛГОРИТМИЗАЦИИ И
+ПРОГРАММИРОВАНИЯ</string>
+<string name="msg32">Урок по алгоритмам</string>
+<string name="msg35">ОСНОВЫ АЛГОРИТМИЗАЦИИ И
+ПРОГРАММИРОВАНИЯ</string>
+<string name="msg34">Урок по алгоритмам</string>
+<string name="lbl_sign_up_dark">Sign Up-dark</string>
+<string name="lbl_settingsdark">Settingsdark</string>
+<string name="lbl_log_in">Log In</string>
+<string name="msg_more_ways_to_le">More ways to learn in 2021</string>
+<string name="lbl_90">90 мин</string>
+<string name="msg_welcome_to_algo2">Welcome to AlgoBox-dark</string>
+<string name="lbl_12">Тема 1.</string>
+<string name="lbl_13">Тема 1.</string>
+<string name="msg31">ОСНОВЫ АЛГОРИТМИЗАЦИИ И
+ПРОГРАММИРОВАНИЯ</string>
+<string name="msg30">Алгоритмы цикла 5 мин</string>
+<string name="lbl_sign_up">Sign Up</string>
+<string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</string>
+<string name="lbl_14">Тема 1.</string>
+<string name="lbl_15">Тема 1.</string>
+<string name="msg26">Основы алгоритмизации, 
+языки и системы программирования.</string>
+<string name="msg25">Урок по алгоритмам</string>
+<string name="lbl_dark_theme">dark-theme</string>
+<string name="msg28">Вводная лекция. 5 мин</string>
+<string name="msg27">Содержание учебного материала</string>
+<string name="msg22">Получайте ежедневные напоминания, чтобы постоянно практиковаться и пересматривать концепции.</string>
+<string name="msg21">Решенные упражнения</string>
+<string name="msg24">ОСНОВЫ АЛГОРИТМИЗАЦИИ И
+ПРОГРАММИРОВАНИЯ</string>
+<string name="lbl">рекурция</string>
+<string name="msg23">Получайте уведомления, когда может появиться новый ресурс, который поможет вам в вашем путешествии по программированию.</string>
+<string name="msg_provide_a_val">* Provide a valid email</string>
+<string name="msg29">Основы алгоритмизации  
+5 мин</string>
+<string name="lbl_your_stats">Your Stats</string>
+<string name="lbl_search">Search</string>
+<string name="msg_find_what_langu">Find what language works for you!</string>
+<string name="lbl_1">тема 1</string>
+<string name="lbl_2">тема 2</string>
+<string name="lbl_3">тема 3</string>
+<string name="msg_welcome_to_algo">Welcome to AlgoBox</string>
+<string name="lbl_search_dark">Search-dark</string>
+<string name="msg4">Что мы можем вам помочь найти, рекурсия?</string>
+<string name="msg3">системы 
+программирования</string>
+<string name="msg2">Что мы можем вам помочь найти, рекурсия?</string>
+<string name="msg8">Прочитанные статьи</string>
+<string name="msg7">самое высокое
+ время соединения</string>
+<string name="lbl_home_page">Home Page</string>
+<string name="msg6">общее время обучения</string>
+<string name="msg5">системы 
+программирования</string>
+<string name="msg9">Решенные упражнения</string>
+<string name="lbl_settings">Settings</string>
+<string name="msg_javascript_cour">JAVASCRIPT COURSE</string>
+<string name="lbl_welcome_to">Welcome to</string>
+<string name="lbl_log_in_dark">Log In-dark</string>
+<string name="msg44">Вводная лекция. 5 мин</string>
+<string name="msg43">Содержание учебного материала</string>
+<string name="msg46">Алгоритмы цикла 5 мин</string>
+<string name="msg45">Основы алгоритмизации  
+5 мин</string>
+<string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+</resources>

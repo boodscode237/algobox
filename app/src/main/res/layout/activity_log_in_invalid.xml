@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="logInInvalidVM" type="com.algobox.app.modules.logininvalid.data.viewmodel.LogInInvalidVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup240"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_A400">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearGroup236"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_25pxv" android:paddingTop="@dimen/_25pxv">
+                <ImageView android:clickable="true"
+                    android:id="@+id/imageBackArrow"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_21pxh"
+                    android:layout_marginEnd="@dimen/_32pxh"
+                    android:layout_marginStart="@dimen/_32pxh"
+                    android:layout_width="@dimen/_10pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_backarrow_1"/>
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtLogIn"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_30pxh"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:layout_width="wrap_content"
+                    android:text="@{logInInvalidVM.logInInvalidModel.txtLogIn}"
+                    style="@style/txtInterbold36" tools:text="@string/lbl_log_in"/>
+                <LinearLayout android:id="@+id/linearTypingAreas"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_33pxh"
+                    android:layout_marginStart="@dimen/_33pxh"
+                    android:layout_marginTop="@dimen/_125pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <LinearLayout android:id="@+id/linearGroup237"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylewhite_3">
+                        <LinearLayout android:id="@+id/linearGroup238"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/_20pxv"
+                            android:layout_marginTop="@dimen/_20pxv"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+                            <ImageView android:id="@+id/imageGoogle"
+                                android:layout_gravity="center_vertical"
+                                android:layout_height="@dimen/_37pxh"
+                                android:layout_marginStart="@dimen/_16pxh"
+                                android:layout_width="@dimen/_37pxh"
+                                android:scaleType="fitXY" android:src="@drawable/img_google"/>
+                            <TextView android:gravity="top|start"
+                                android:id="@+id/txtLogInwithGoo"
+                                android:layout_gravity="center_vertical"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_8pxv"
+                                android:layout_marginStart="@dimen/_17pxh"
+                                android:layout_marginTop="@dimen/_7pxv"
+                                android:layout_weight="1.4"
+                                android:layout_width="0dp"
+                                android:text="@{logInInvalidVM.logInInvalidModel.txtLogInwithGoo}"
+                                style="@style/txtIntersemibold18" tools:text="@string/msg_log_in_with_goo"/>
+                            <ImageView android:id="@+id/imageArrow"
+                                android:layout_gravity="center_vertical"
+                                android:layout_height="@dimen/_16pxh"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_23pxh"
+                                android:layout_marginStart="@dimen/_70pxh"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="@dimen/_23pxh"
+                                android:scaleType="fitXY" android:src="@drawable/img_arrow"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearEmailAddress"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:gravity="top|start"
+                            android:id="@+id/txtEmailAddress"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@{logInInvalidVM.logInInvalidModel.txtEmailAddress}"
+                            style="@style/txtIntersemibold14" tools:text="@string/lbl_email_address"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_border_red_500_radius_20"
+                            android:drawablePadding="@dimen/_5pxh"
+                            android:drawableStart="@drawable/img_group84"
+                            android:hint="@string/lbl_email_address"
+                            android:id="@+id/etGroup84"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_19pxv"
+                            android:paddingStart="@dimen/_19pxh"
+                            android:paddingTop="@dimen/_19pxv"
+                            android:singleLine="true"
+                            android:text="@={logInInvalidVM.logInInvalidModel.etGroup84Value}"
+                            android:textColorHint="@color/gray_600" style="@style/etSolidRoundedOutline"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearPassword"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:gravity="top|start"
+                            android:id="@+id/txtPassword"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@{logInInvalidVM.logInInvalidModel.txtPassword}"
+                            style="@style/txtIntersemibold14" tools:text="@string/lbl_password"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_radius_21"
+                            android:drawablePadding="@dimen/_5pxh"
+                            android:drawableStart="@drawable/img_group77"
+                            android:hint="@string/lbl_password"
+                            android:id="@+id/etGroup85"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_18pxv"
+                            android:paddingStart="@dimen/_22pxh"
+                            android:paddingTop="@dimen/_18pxv"
+                            android:singleLine="true"
+                            android:text="@={logInInvalidVM.logInInvalidModel.etGroup85Value}"
+                            android:textColorHint="@color/gray_600" style="@style/etSolidRounded_2"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtProvideaval"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_33pxh"
+                    android:layout_marginStart="@dimen/_33pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="wrap_content"
+                    android:text="@{logInInvalidVM.logInInvalidModel.txtProvideaval}"
+                    style="@style/txtIntermedium14_1" tools:text="@string/msg_provide_a_val"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:clickable="true" android:gravity="center"
+                    android:id="@+id/btnLogIn"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_30pxh"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_100pxv"
+                    android:layout_width="match_parent"
+                    android:text="@string/lbl_log_in"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded" tools:text="@string/lbl_log_in"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

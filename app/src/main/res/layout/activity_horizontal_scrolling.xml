@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="horizontalScrollingVM" type="com.algobox.app.modules.horizontalscrolling.data.viewmodel.HorizontalScrollingVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearJSVariables"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:orientation="vertical">
+        <LinearLayout android:id="@+id/linearGroup258"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleteal_A700">
+            <TextView android:gravity="start"
+                android:id="@+id/txtDescription"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_18pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="match_parent"
+                android:text="@{horizontalScrollingVM.horizontalScrollingModel.txtDescription}"
+                style="@style/txtInterbold14_3" tools:text="@string/msg42"/>
+            <FrameLayout android:id="@+id/frameGroup260"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:layout_marginStart="@dimen/_23pxh"
+                android:layout_marginTop="@dimen/_7pxv" android:layout_width="match_parent">
+                <TextView android:gravity="start" android:id="@+id/txt1"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@{horizontalScrollingVM.horizontalScrollingModel.txt1}"
+                    style="@style/txtInterbold30" tools:text="@string/lbl_14"/>
+                <TextView android:gravity="start" android:id="@+id/txt2"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@{horizontalScrollingVM.horizontalScrollingModel.txt2}"
+                    style="@style/txtInterbold30" tools:text="@string/lbl_15"/>
+            </FrameLayout>
+        </LinearLayout>
+        <TextView android:gravity="start" android:id="@+id/txt"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_44pxh"
+            android:layout_marginStart="@dimen/_44pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:text="@{horizontalScrollingVM.horizontalScrollingModel.txt}"
+            style="@style/txtInterregular14" tools:text="@string/msg43"/>
+        <LinearLayout android:id="@+id/linearOptions"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_29pxv"
+            android:layout_marginEnd="@dimen/_42pxh"
+            android:layout_marginStart="@dimen/_42pxh"
+            android:layout_marginTop="@dimen/_55pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <EditText
+                android:background="@drawable/rectangle_bg_white_a700_radius_10"
+                android:drawableEnd="@drawable/img_forums"
+                android:drawablePadding="@dimen/_5pxh"
+                android:hint="@string/msg44" android:id="@+id/etForums"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_14pxv"
+                android:paddingEnd="@dimen/_23pxh"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true"
+                android:text="@={horizontalScrollingVM.horizontalScrollingModel.etForumsValue}"
+                android:textColorHint="@color/black_900" style="@style/etSolidRounded_1"/>
+            <FrameLayout android:id="@+id/frameGroup262"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv" android:layout_width="match_parent">
+                <FrameLayout android:id="@+id/frameRectangle8"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="match_parent" style="@style/groupStylecornerRadius">
+                    <ImageView android:id="@+id/imageBackArrow"
+                        android:layout_gravity="center|end"
+                        android:layout_height="@dimen/_18pxh"
+                        android:layout_marginBottom="@dimen/_13pxv"
+                        android:layout_marginEnd="@dimen/_24pxh"
+                        android:layout_marginStart="@dimen/_267pxh"
+                        android:layout_marginTop="@dimen/_13pxv"
+                        android:layout_width="@dimen/_9pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_backarrow"/>
+                </FrameLayout>
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtLanguage"
+                    android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_137pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_width="wrap_content"
+                    android:text="@{horizontalScrollingVM.horizontalScrollingModel.txtLanguage}"
+                    style="@style/txtIntermedium14_2" tools:text="@string/msg45"/>
+            </FrameLayout>
+            <EditText
+                android:background="@drawable/rectangle_bg_white_a700_radius_10"
+                android:drawableEnd="@drawable/img_backarrow"
+                android:drawablePadding="@dimen/_5pxh"
+                android:hint="@string/msg46"
+                android:id="@+id/etPractice"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_14pxv"
+                android:paddingEnd="@dimen/_24pxh"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true"
+                android:text="@={horizontalScrollingVM.horizontalScrollingModel.etPracticeValue}"
+                android:textColorHint="@color/black_900" style="@style/etSolidRounded_1"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="lessondarkVM" type="com.algobox.app.modules.lessondark.data.viewmodel.LessondarkVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup222"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblack_900">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_29pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearGroup219"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtTitle"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_27pxh"
+                    android:layout_weight="0.4"
+                    android:layout_width="0dp"
+                    android:text="@{lessondarkVM.lessondarkModel.txtTitle}"
+                    style="@style/txtInterbold36" tools:text="@string/lbl_title"/>
+                <ImageView android:clickable="true"
+                    android:id="@+id/imagePolygon1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_44pxh"
+                    android:layout_marginEnd="@dimen/_29pxh"
+                    android:layout_marginStart="@dimen/_222pxh"
+                    android:layout_width="@dimen/_56pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_polygon1_1"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameGroup220"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:paddingTop="@dimen/_11pxv">
+                <View
+                    android:background="@drawable/rectangle_bg_indigo_a400_radius_23"
+                    android:id="@+id/viewLessonarea"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_655pxh"
+                    android:layout_width="@dimen/_414pxh"/>
+                <TextView android:gravity="start"
+                    android:id="@+id/txtDescription"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_650pxh"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{lessondarkVM.lessondarkModel.txtDescription}"
+                    style="@style/txtIntersemibold20_1" tools:text="@string/msg_lorem_ipsum_dol3"/>
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

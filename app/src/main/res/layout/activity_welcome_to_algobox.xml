@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="welcomeToAlgoboxVM" type="com.algobox.app.modules.welcometoalgobox.data.viewmodel.WelcomeToAlgoboxVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup251"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_1">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearGroup248"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_39pxv" android:paddingTop="@dimen/_169pxv">
+                <ImageView android:id="@+id/imageLogo"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_marginEnd="@dimen/_133pxh"
+                    android:layout_marginStart="@dimen/_134pxh"
+                    android:layout_width="@dimen/_147pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_logo"/>
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtWelcometo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_138pxh"
+                    android:layout_marginStart="@dimen/_138pxh"
+                    android:layout_marginTop="@dimen/_63pxv"
+                    android:layout_width="wrap_content"
+                    android:text="@{welcomeToAlgoboxVM.welcomeToAlgoboxModel.txtWelcometo}"
+                    style="@style/txtIntersemibold24" tools:text="@string/lbl_welcome_to"/>
+                <TextView android:gravity="start"
+                    android:id="@+id/txtALGOBOX"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_26pxh"
+                    android:layout_marginStart="@dimen/_26pxh"
+                    android:layout_width="match_parent"
+                    android:text="@{welcomeToAlgoboxVM.welcomeToAlgoboxModel.txtALGOBOX}"
+                    style="@style/txtInterbold64" tools:text="@string/lbl_algobox"/>
+                <LinearLayout android:id="@+id/linearGroup249"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_200pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnSignUp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_30pxh"
+                        android:layout_weight="0.9"
+                        android:layout_width="0dp"
+                        android:text="@string/lbl_sign_up"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_2" tools:text="@string/lbl_sign_up"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/btnLogIn"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_30pxh"
+                        android:layout_marginStart="@dimen/_20pxh"
+                        android:layout_weight="0.9"
+                        android:layout_width="0dp"
+                        android:text="@string/lbl_log_in"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded" tools:text="@string/lbl_log_in"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>
